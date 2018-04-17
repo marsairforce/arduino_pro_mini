@@ -5,7 +5,7 @@
 // (MIT license, written by Adafruit Industries)
 
 // Uncomment to enable printing out nice debug messages.
-#define DHT_DEBUG
+//#define DHT_DEBUG
 
 // Define where debug output will be printed.
 #define DEBUG_PRINTER Serial

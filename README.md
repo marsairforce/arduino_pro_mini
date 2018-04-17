@@ -18,4 +18,18 @@ I have a bunch of these. From China. They hook up with a 1 wire interface.
 
 I didn't like any of the libraries I found so made my own.
 
-Had not place to put this, so stuffed it into this project. Which makes sense since most of the shitty gadgets I use are Arduino Pro Mini based so include this already anyway. Libraries kind of suck in Arduino IDE. So let's not make a ton of them.
+I didn't really have a place to put this, so I just stuffed it into this project. Which makes sense since most of the shitty gadgets I use are Arduino Pro Mini based so include this already anyway. Libraries kind of suck in Arduino IDE. So let's not make a ton of them.
+
+Serial data debug confirmed the DHT11 only supports 8 bit integer values for temperature and humidity:
+```
+Received:
+24, 0, 14, 0, 38 =? 38
+Received:
+24, 0, 14, 0, 38 =? 38
+Received:
+24, 0, 14, 0, 38 =? 38
+Received:
+24, 0, 14, 0, 38 =? 38
+Received:
+24, 0, 14, 0, 38 =? 38
+```
