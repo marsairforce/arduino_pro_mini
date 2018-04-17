@@ -12,3 +12,10 @@ Clases:
 
 # Challenges
 The hard part starting this library was considering to use underscores, or CamelCase notation for the structure and function names.
+
+# DHT11 Temperature Sensor
+I have a bunch of these. From China. They hook up with a 1 wire interface.
+
+I didn't like any of the libraries I found so made my own.
+
+Had not place to put this, so stuffed it into this project. Which makes sense since most of the shitty gadgets I use are Arduino Pro Mini based so include this already anyway. Libraries kind of suck in Arduino IDE. So let's not make a ton of them.
