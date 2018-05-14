@@ -1,5 +1,9 @@
 # Changes
 
+## (2018-04-25)
+* Integrated a library for DS1307 RTC with support for USIWire.
+* Split the DHT11 to its own header file.
+
 ## (2018-04-17)
 * Create a class for DHT11 temperature and humidity sensor. Based off Adafruit library
   * only this one does not support float values.

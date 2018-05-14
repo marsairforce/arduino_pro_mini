@@ -1,4 +1,4 @@
-#include "arduino_pro_mini.h"
+#include "DHT11.h"
 #include <Arduino.h>
 
 // Ispired by the Adafruit DHT library
@@ -18,6 +18,13 @@
   #define DEBUG_PRINT(...) {}
   #define DEBUG_PRINTLN(...) {}
 #endif
+
+InterruptLock::InterruptLock() {
+    noInterrupts();
+}
+InterruptLock::~InterruptLock() {
+    interrupts();
+}
 
 
 DHT11::DHT11(uint8_t pin, int8_t offset) {
